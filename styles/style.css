@@ -1,8 +1,67 @@
-/*
-Colors:
+/*Colors:
 
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+body {
+    font-family: system-ui, system-ui, sans-serif;
+    font-size: 81.25%;
+    color: 1A1A1A;
+}
+
+#barranav {
+   background-color:beige
+}
+
+#logonav{
+    width: 200px;
+    align-items: flex-start;
+    padding-top: 30px;
+}
+
+#textnav{
+    list-style-type: none;
+    float: right;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20%;
+
+}
+
+
+#capçalera{
+
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    padding: 5% 15%;
+}
+
+#capçalera h1{
+text-align: center;
+padding: 100px 15%;
+font-size: 2.5em;
+color: #FFF;
+}
+#capçalera p{
+    text-align: center;
+    font-size: 1.5em;
+    color: #FFF;
+}
+
+
+
+
+#whats{
+}
+
+#whats img{
+    width: 150px;
+}
+
+#flexwhats{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
